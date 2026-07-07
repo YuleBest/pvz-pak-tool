@@ -1,0 +1,28 @@
+# 编译产物
+pkt
+pkt.exe
+pkt_*
+*.exe
+
+# Go
+vendor/
+*.test
+*.prof
+test/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时打包产物
+/tmp/
+
+# 参考项目
+.reference/
